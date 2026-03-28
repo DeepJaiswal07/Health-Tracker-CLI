@@ -12,7 +12,7 @@ Most health tracking solutions are either expensive apps, require internet conne
 ## 🖼️ Screenshots
 
 ### 📋 Main Menu
-<img src="assets/Main_menu.png" width="700"/>
+<img src="https://raw.githubusercontent.com/DeepJaiswal07/Health-Tracker-CLI/main/assets/Main_menu.png" width="700"/>
 
 ### 💧 Logging Water Intake
 <img src="https://raw.githubusercontent.com/DeepJaiswal07/Health-Tracker-CLI/main/assets/log_water.png" width="700"/>
@@ -142,7 +142,7 @@ java Main
 ```
   First Launch — New User Setup
   ─────────────────────────────
-  Enter your name: Arjun
+  Enter your name: Deep
   → New user detected. Setting up profile...
   Age: 21
   Current weight (kg): 72
@@ -171,12 +171,12 @@ java Main
 
 All data is stored in plain text CSV files in the `data/` folder.
 
-**User file** (`data/user_arjun.txt`):
+**User file** (`data/user_deep.txt`):
 ```
 Arjun,21,72.0,68.0,3.0,8.0
 ```
 
-**Log file** (`data/logs_arjun.txt`):
+**Log file** (`data/logs_deep.txt`):
 ```
 WATER,2025-06-10,2.5,3.0
 EXERCISE,2025-06-10,Running,30,250
@@ -198,10 +198,10 @@ MEAL,2025-06-10,Breakfast,Oats and banana,350
 
 ## 👨‍💻 Author
 
-**Your Name**
-Roll No: XXXXXXX
-Course: [Course Name]
-Institution: [Your College Name]
+Deep Jaiswal
+Roll No: 24BAI10750
+Course: Programming In Java
+Institution: VIT Bhopal University
 
 ---
 
