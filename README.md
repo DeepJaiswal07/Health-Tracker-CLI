@@ -163,4 +163,4 @@ Institution: VIT Bhopal University
 
 ## 📄 License
 
-This project is for academic purposes under the BYOP capstone submission.
+This project is for academic purposes under the BYOP capstone submission for programming in java course
