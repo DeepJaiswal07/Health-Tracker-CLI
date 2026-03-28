@@ -1,61 +1,61 @@
-# 🏥 Personal Health Tracker CLI
+# Personal Health Tracker CLI
 
 A console-based Java application to track your daily health habits — water intake, exercise, sleep, and meals — all saved locally without any internet or subscription required.
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Most health tracking solutions are either expensive apps, require internet connectivity, or collect your personal data. Students and everyday users need a **simple, offline, privacy-respecting** tool to build consistent health habits. This project solves that with a lightweight Java CLI app.
 
 ---
-## 🖼️ Screenshots
+##  Screenshots
 
-### 📋 Main Menu
+###  Main Menu
 <img src="https://raw.githubusercontent.com/DeepJaiswal07/Health-Tracker-CLI/main/assets/Main_menu.png" width="700"/>
 
-### 💧 Logging Water Intake
+###  Logging Water Intake
 <img src="https://raw.githubusercontent.com/DeepJaiswal07/Health-Tracker-CLI/main/assets/log_water.png" width="700"/>
 
-### 🏃 Logging Exercise
+###  Logging Exercise
 <img src="https://raw.githubusercontent.com/DeepJaiswal07/Health-Tracker-CLI/main/assets/log_exercise.png" width="700"/>
 
-### 😴 Logging Sleep
+###  Logging Sleep
 <img src="https://raw.githubusercontent.com/DeepJaiswal07/Health-Tracker-CLI/main/assets/log_sleep.png" width="700"/>
 
-### 🍎 Logging a Meal
+###  Logging a Meal
 <img src="https://raw.githubusercontent.com/DeepJaiswal07/Health-Tracker-CLI/main/assets/log_meal.png" width="700"/>
 
-### 📊 Daily Health Summary
+###  Daily Health Summary
 <img src="https://raw.githubusercontent.com/DeepJaiswal07/Health-Tracker-CLI/main/assets/daily_summary.png" width="700"/>
 
-### 📅 History View
+###  History View
 <img src="https://raw.githubusercontent.com/DeepJaiswal07/Health-Tracker-CLI/main/assets/history.png" width="700"/>
 
-### 📅Stats View
+### Stats View
 <img src="https://raw.githubusercontent.com/DeepJaiswal07/Health-Tracker-CLI/main/assets/stats.png" width="700"/>
 
-### 📅Stats View
+### Profile View
 <img src="https://raw.githubusercontent.com/DeepJaiswal07/Health-Tracker-CLI/main/assets/profile.png" width="700"/>
 
-## ✨ Features
+##  Features
 
 | Feature | Description |
 |---|---|
-| 👤 User Profiles | Create and load personal profiles with health goals |
-| 💧 Water Intake | Log water consumption; get goal progress feedback |
-| 🏃 Exercise | Log workout type, duration, and calories burned |
-| 😴 Sleep | Log sleep hours with bed/wake times and quality rating |
-| 🍎 Meals | Log meals by type (Breakfast/Lunch/Dinner/Snack) with calorie estimates |
-| 📊 Daily Summary | Full health snapshot for any date |
-| 📅 History | View all past log entries grouped by date |
-| 📈 Stats | Aggregated averages and goal achievement counts |
-| 💾 Persistent Storage | All data saved to local `.txt` files — no database needed |
-| 👥 Multi-User | Multiple user profiles supported on the same machine |
+|  User Profiles | Create and load personal profiles with health goals |
+|  Water Intake | Log water consumption; get goal progress feedback |
+|  Exercise | Log workout type, duration, and calories burned |
+|  Sleep | Log sleep hours with bed/wake times and quality rating |
+|  Meals | Log meals by type (Breakfast/Lunch/Dinner/Snack) with calorie estimates |
+|  Daily Summary | Full health snapshot for any date |
+|  History | View all past log entries grouped by date |
+|  Stats | Aggregated averages and goal achievement counts |
+|  Persistent Storage | All data saved to local `.txt` files — no database needed |
+|  Multi-User | Multiple user profiles supported on the same machine |
 
 ---
 
-## 🧠 Java Concepts Used
+##  Java Concepts Used
 
 - **OOP** — Abstract `Log` base class; `WaterLog`, `ExerciseLog`, `SleepLog`, `MealLog` as subclasses
 - **Interfaces** — `Trackable` interface enforces `logEntry()`, `getSummary()`, and `toFileString()` across all log types
@@ -66,7 +66,7 @@ Most health tracking solutions are either expensive apps, require internet conne
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 HealthTracker/
@@ -137,7 +137,7 @@ java Main
 
 ---
 
-## 🖥️ Usage Walkthrough
+##  Usage Walkthrough
 
 ```
   First Launch — New User Setup
@@ -153,21 +153,21 @@ java Main
 
   Main Menu
   ─────────
-  [1] 💧 Log Water Intake
-  [2] 🏃 Log Exercise
-  [3] 😴 Log Sleep
-  [4] 🍎 Log Meal
-  [5] 📊 View Daily Summary
-  [6] 📅 View Full History
-  [7] 📈 View Overall Stats
-  [8] ✏️  Update Profile
-  [9] 🔄 Switch User
-  [0] 🚪 Exit
+  [1]  Log Water Intake
+  [2]  Log Exercise
+  [3]  Log Sleep
+  [4]  Log Meal
+  [5]  View Daily Summary
+  [6]  View Full History
+  [7]  View Overall Stats
+  [8]   Update Profile
+  [9]  Switch User
+  [0]  Exit
 ```
 
 ---
 
-## 💾 Data Storage Format
+##  Data Storage Format
 
 All data is stored in plain text CSV files in the `data/` folder.
 
@@ -186,7 +186,7 @@ MEAL,2025-06-10,Breakfast,Oats and banana,350
 
 ---
 
-## 🔮 Possible Future Enhancements
+##  Possible Future Enhancements
 
 - BMI calculator based on current weight and height
 - Weekly PDF/HTML report export
@@ -196,7 +196,7 @@ MEAL,2025-06-10,Breakfast,Oats and banana,350
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Deep Jaiswal
 Roll No: 24BAI10750
@@ -205,6 +205,6 @@ Institution: VIT Bhopal University
 
 ---
 
-## 📄 License
+##  License
 
 This project is for academic purposes under the BYOP capstone submission.
