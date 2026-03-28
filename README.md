@@ -127,12 +127,12 @@ java Main
 
 All data is stored in plain text CSV files in the `data/` folder.
 
-**User file** (`data/user_arjun.txt`):
+**User file** (`data/user_deep.txt`):
 ```
-Arjun,21,72.0,68.0,3.0,8.0
+deep,21,72.0,68.0,3.0,8.0
 ```
 
-**Log file** (`data/logs_arjun.txt`):
+**Log file** (`data/logs_deep.txt`):
 ```
 WATER,2025-06-10,2.5,3.0
 EXERCISE,2025-06-10,Running,30,250
@@ -154,10 +154,10 @@ MEAL,2025-06-10,Breakfast,Oats and banana,350
 
 ## 👨‍💻 Author
 
-**Your Name**
-Roll No: XXXXXXX
-Course: [Course Name]
-Institution: [Your College Name]
+Deep Jaiswal
+Reg. No: 24BAI10750
+Course: Programming In Java
+Institution: VIT Bhopal University
 
 ---
 
