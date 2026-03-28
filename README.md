@@ -114,7 +114,7 @@ java Main
 ```
   First Launch — New User Setup
   ─────────────────────────────
-  Enter your name: Arjun
+  Enter your name: Deep
   → New user detected. Setting up profile...
   Age: 21
   Current weight (kg): 72
@@ -143,12 +143,12 @@ java Main
 
 All data is stored in plain text CSV files in the `data/` folder.
 
-**User file** (`data/user_arjun.txt`):
+**User file** (`data/user_deep.txt`):
 ```
 Arjun,21,72.0,68.0,3.0,8.0
 ```
 
-**Log file** (`data/logs_arjun.txt`):
+**Log file** (`data/logs_deep.txt`):
 ```
 WATER,2025-06-10,2.5,3.0
 EXERCISE,2025-06-10,Running,30,250
