@@ -173,7 +173,7 @@ All data is stored in plain text CSV files in the `data/` folder.
 
 **User file** (`data/user_deep.txt`):
 ```
-Arjun,21,72.0,68.0,3.0,8.0
+Deep,21,72.0,68.0,3.0,8.0
 ```
 
 **Log file** (`data/logs_deep.txt`):
