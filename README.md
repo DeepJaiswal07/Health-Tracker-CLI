@@ -9,6 +9,34 @@ A console-based Java application to track your daily health habits — water int
 Most health tracking solutions are either expensive apps, require internet connectivity, or collect your personal data. Students and everyday users need a **simple, offline, privacy-respecting** tool to build consistent health habits. This project solves that with a lightweight Java CLI app.
 
 ---
+## 🖼️ Screenshots
+
+### 📋 Main Menu
+<img src="assets/Main_menu.png" width="700"/>
+
+### 💧 Logging Water Intake
+<img src="assets/log_water.png" width="700"/>
+
+### 🏃 Logging Exercise
+<img src="assets/log_exercise.png" width="700"/>
+
+### 😴 Logging Sleep
+<img src="assets/log_sleep.png" width="700"/>
+
+### 🍎 Logging a Meal
+<img src="assets/log_meal.png" width="700"/>
+
+### 📊 Daily Health Summary
+<img src="assets/daily_summary.png" width="700"/>
+
+### 📅 History View
+<img src="assets/history.png" width="700"/>
+
+### 📅Stats View
+<img src="assets/stats.png" width="700"/>
+
+### Profile View
+<img src="assets/profile.png" width="700"/>
 
 ## ✨ Features
 
@@ -68,28 +96,44 @@ HealthTracker/
 ## ⚙️ Setup & How to Run
 
 ### Prerequisites
-- Java JDK 11 or higher installed
-- A terminal / command prompt
+- Java JDK 11 or higher installed → Download from [https://www.oracle.com/java/technologies/downloads/](https://www.oracle.com/java/technologies/downloads/)
+- A terminal / Command Prompt
 
 ### Step 1 — Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/health-tracker-cli.git
-cd health-tracker-cli
+git clone https://github.com/DeepJaiswal07/Health-Tracker-CLI.git
+cd Health-Tracker-CLI
 ```
 
 ### Step 2 — Compile
+
+**On Windows (Command Prompt):**
+```cmd
+mkdir out
+javac -d out src\Main.java src\models\Log.java src\models\User.java src\models\WaterLog.java src\models\ExerciseLog.java src\models\SleepLog.java src\models\MealLog.java src\interfaces\Trackable.java src\services\FileService.java src\services\LogService.java src\utils\DateUtils.java
+```
+
+**On Mac / Linux (Terminal):**
 ```bash
 mkdir out
-javac -d out $(find src -name "*.java")
+find src -name "*.java" | xargs javac -d out
 ```
 
 ### Step 3 — Run
+
+**On Windows:**
+```cmd
+cd out
+java Main
+```
+
+**On Mac / Linux:**
 ```bash
 cd out
 java Main
 ```
 
-> **Note:** The `data/` folder will be created automatically in whichever directory you run the program from.
+> **Note:** Always run `java Main` from inside the `out/` folder. The `data/` folder will be created automatically there to store your health logs.
 
 ---
 
