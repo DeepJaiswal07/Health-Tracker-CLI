@@ -68,28 +68,44 @@ HealthTracker/
 ## ⚙️ Setup & How to Run
 
 ### Prerequisites
-- Java JDK 11 or higher installed
-- A terminal / command prompt
+- Java JDK 11 or higher installed → Download from [https://www.oracle.com/java/technologies/downloads/](https://www.oracle.com/java/technologies/downloads/)
+- A terminal / Command Prompt
 
 ### Step 1 — Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/health-tracker-cli.git
-cd health-tracker-cli
+git clone https://github.com/DeepJaiswal07/Health-Tracker-CLI.git
+cd Health-Tracker-CLI
 ```
 
 ### Step 2 — Compile
+
+**On Windows (Command Prompt):**
+```cmd
+mkdir out
+javac -d out src\Main.java src\models\Log.java src\models\User.java src\models\WaterLog.java src\models\ExerciseLog.java src\models\SleepLog.java src\models\MealLog.java src\interfaces\Trackable.java src\services\FileService.java src\services\LogService.java src\utils\DateUtils.java
+```
+
+**On Mac / Linux (Terminal):**
 ```bash
 mkdir out
-javac -d out $(find src -name "*.java")
+find src -name "*.java" | xargs javac -d out
 ```
 
 ### Step 3 — Run
+
+**On Windows:**
+```cmd
+cd out
+java Main
+```
+
+**On Mac / Linux:**
 ```bash
 cd out
 java Main
 ```
 
-> **Note:** The `data/` folder will be created automatically in whichever directory you run the program from.
+> **Note:** Always run `java Main` from inside the `out/` folder. The `data/` folder will be created automatically there to store your health logs.
 
 ---
 
@@ -127,12 +143,12 @@ java Main
 
 All data is stored in plain text CSV files in the `data/` folder.
 
-**User file** (`data/user_deep.txt`):
+**User file** (`data/user_arjun.txt`):
 ```
-deep,21,72.0,68.0,3.0,8.0
+Arjun,21,72.0,68.0,3.0,8.0
 ```
 
-**Log file** (`data/logs_deep.txt`):
+**Log file** (`data/logs_arjun.txt`):
 ```
 WATER,2025-06-10,2.5,3.0
 EXERCISE,2025-06-10,Running,30,250
@@ -155,7 +171,7 @@ MEAL,2025-06-10,Breakfast,Oats and banana,350
 ## 👨‍💻 Author
 
 Deep Jaiswal
-Reg. No: 24BAI10750
+Reg No: 24BAI10750
 Course: Programming In Java
 Institution: VIT Bhopal University
 
@@ -163,4 +179,4 @@ Institution: VIT Bhopal University
 
 ## 📄 License
 
-This project is for academic purposes under the BYOP capstone submission for programming in java course
+This project is for academic purposes under the BYOP capstone submission for Programming In Java Course.
