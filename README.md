@@ -12,31 +12,31 @@ Most health tracking solutions are either expensive apps, require internet conne
 ## 🖼️ Screenshots
 
 ### 📋 Main Menu
-<img src="assets/Main_menu.png" width="700"/>
+<img src="https://raw.githubusercontent.com/DeepJaiswal07/Health-Tracker-CLI/main/assets/Main_menu.png" width="700"/>
 
 ### 💧 Logging Water Intake
-<img src="assets/log_water.png" width="700"/>
+<img src="https://raw.githubusercontent.com/DeepJaiswal07/Health-Tracker-CLI/main/assets/log_water.png" width="700"/>
 
 ### 🏃 Logging Exercise
-<img src="assets/log_exercise.png" width="700"/>
+<img src="https://raw.githubusercontent.com/DeepJaiswal07/Health-Tracker-CLI/main/assets/log_exercise.png" width="700"/>
 
 ### 😴 Logging Sleep
-<img src="assets/log_sleep.png" width="700"/>
+<img src="https://raw.githubusercontent.com/DeepJaiswal07/Health-Tracker-CLI/main/assets/log_sleep.png" width="700"/>
 
 ### 🍎 Logging a Meal
-<img src="assets/log_meal.png" width="700"/>
+<img src="https://raw.githubusercontent.com/DeepJaiswal07/Health-Tracker-CLI/main/assets/log_meal.png" width="700"/>
 
 ### 📊 Daily Health Summary
-<img src="assets/daily_summary.png" width="700"/>
+<img src="https://raw.githubusercontent.com/DeepJaiswal07/Health-Tracker-CLI/main/assets/daily_summary.png" width="700"/>
 
 ### 📅 History View
-<img src="assets/history.png" width="700"/>
+<img src="https://raw.githubusercontent.com/DeepJaiswal07/Health-Tracker-CLI/main/assets/history.png" width="700"/>
 
 ### 📅Stats View
-<img src="assets/stats.png" width="700"/>
+<img src="https://raw.githubusercontent.com/DeepJaiswal07/Health-Tracker-CLI/main/assets/stats.png" width="700"/>
 
-### Profile View
-<img src="assets/profile.png" width="700"/>
+### 📅Stats View
+<img src="https://raw.githubusercontent.com/DeepJaiswal07/Health-Tracker-CLI/main/assets/profile.png" width="700"/>
 
 ## ✨ Features
 
