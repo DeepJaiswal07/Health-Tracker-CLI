@@ -9,6 +9,34 @@ A console-based Java application to track your daily health habits — water int
 Most health tracking solutions are either expensive apps, require internet connectivity, or collect your personal data. Students and everyday users need a **simple, offline, privacy-respecting** tool to build consistent health habits. This project solves that with a lightweight Java CLI app.
 
 ---
+## 🖼️ Screenshots
+
+### 📋 Main Menu
+<img src="assets/Main_menu.png" width="700"/>
+
+### 💧 Logging Water Intake
+<img src="assets/log_water.png" width="700"/>
+
+### 🏃 Logging Exercise
+<img src="assets/log_exercise.png" width="700"/>
+
+### 😴 Logging Sleep
+<img src="assets/log_sleep.png" width="700"/>
+
+### 🍎 Logging a Meal
+<img src="assets/log_meal.png" width="700"/>
+
+### 📊 Daily Health Summary
+<img src="assets/daily_summary.png" width="700"/>
+
+### 📅 History View
+<img src="assets/history.png" width="700"/>
+
+### 📅Stats View
+<img src="assets/stats.png" width="700"/>
+
+### Profile View
+<img src="assets/profile.png" width="700"/>
 
 ## ✨ Features
 
@@ -114,7 +142,7 @@ java Main
 ```
   First Launch — New User Setup
   ─────────────────────────────
-  Enter your name: Deep
+  Enter your name: Arjun
   → New user detected. Setting up profile...
   Age: 21
   Current weight (kg): 72
@@ -143,12 +171,12 @@ java Main
 
 All data is stored in plain text CSV files in the `data/` folder.
 
-**User file** (`data/user_deep.txt`):
+**User file** (`data/user_arjun.txt`):
 ```
 Arjun,21,72.0,68.0,3.0,8.0
 ```
 
-**Log file** (`data/logs_deep.txt`):
+**Log file** (`data/logs_arjun.txt`):
 ```
 WATER,2025-06-10,2.5,3.0
 EXERCISE,2025-06-10,Running,30,250
@@ -170,13 +198,13 @@ MEAL,2025-06-10,Breakfast,Oats and banana,350
 
 ## 👨‍💻 Author
 
-Deep Jaiswal
-Reg No: 24BAI10750
-Course: Programming In Java
-Institution: VIT Bhopal University
+**Your Name**
+Roll No: XXXXXXX
+Course: [Course Name]
+Institution: [Your College Name]
 
 ---
 
 ## 📄 License
 
-This project is for academic purposes under the BYOP capstone submission for Programming In Java Course.
+This project is for academic purposes under the BYOP capstone submission.
