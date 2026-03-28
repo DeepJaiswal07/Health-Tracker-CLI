@@ -12,7 +12,7 @@ Most health tracking solutions are either expensive apps, require internet conne
 ##  Screenshots
 
 ###  Main Menu
-<img src="https://raw.githubusercontent.com/DeepJaiswal07/Health-Tracker-CLI/main/assets/main_menu.png" width="700"/>
+<img assets="https://raw.githubusercontent.com/DeepJaiswal07/Health-Tracker-CLI/main/assets/Main_menu.png" width="700"/>
 
 ###  Logging Water Intake
 <img src="https://raw.githubusercontent.com/DeepJaiswal07/Health-Tracker-CLI/main/assets/log_water.png" width="700"/>
