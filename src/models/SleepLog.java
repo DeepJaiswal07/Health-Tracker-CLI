@@ -4,7 +4,7 @@ public class SleepLog extends Log {
 
     private double hours;
     private double goal;
-    private String bed;
+    private String bed; 
     private String wake;
 
     public SleepLog(String date, double hours, double goal, String bed, String wake) {
