@@ -1,4 +1,4 @@
 WATER,2026-03-28,3.5,4.0
 EXERCISE,2026-03-28,Bicep,45,500
 SLEEP,2026-03-28,7.0,7.0,11:00 P.M.,6:00 A.M.
-MEAL,2026-03-28,Breakfast,Oats and Protien shake,1200
+MEAL,2026-03-28,Breakfast,Oats and Protien shake,1200 
