@@ -4,7 +4,7 @@ public interface Trackable {
 
     void logEntry();
 
-    String getSummary();
+    String getSummary(); 
 
     String toFileString();
 }
