@@ -149,7 +149,7 @@ java Main
   Target weight (kg): 68
   Daily water goal (L): 3.0
   Daily sleep goal (hrs): 8.0
-   Profile created!!!
+  Profile created!!!
 
   Main Menu
   ─────────
@@ -160,7 +160,7 @@ java Main
   [5]  View Daily Summary
   [6]  View Full History
   [7]  View Overall Stats
-  [8]   Update Profile
+  [8]  Update Profile
   [9]  Switch User
   [0]  Exit
 ```
@@ -198,9 +198,9 @@ MEAL,2025-06-10,Breakfast,Oats and banana,350
 
 ##  Author
 
-Deep Jaiswal
-Roll No: 24BAI10750
-Course: Programming In Java
+Deep Jaiswal\
+Roll No: 24BAI10750\
+Course: Programming In Java\
 Institution: VIT Bhopal University
 
 ---
