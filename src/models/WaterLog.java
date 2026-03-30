@@ -6,7 +6,7 @@ public class WaterLog extends Log {
     private double goal;
 
     public WaterLog(String date, double amount, double goal) {
-        super(date, "WATER");
+        super(date, "WATER"); 
         this.amount = amount;
         this.goal = goal;
     }
