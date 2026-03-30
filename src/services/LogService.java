@@ -7,7 +7,7 @@ import java.util.*;
 
 public class LogService {
 
-    private final FileService storage;
+    private final FileService storage; 
     private User user;
 
     public LogService(FileService storage, User user) {
