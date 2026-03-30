@@ -188,11 +188,11 @@ MEAL,2025-06-10,Breakfast,Oats and banana,350
 
 ##  Possible Future Enhancements
 
-- BMI calculator based on current weight and height
-- Weekly PDF/HTML report export
-- Calorie goal tracking
-- JavaFX GUI version
-- Reminders using scheduled threads
+(i) BMI calculator based on current weight and height\
+(ii) Weekly PDF/HTML report export\
+(iii) Calorie goal tracking\
+(iv) JavaFX GUI version\
+(v) Reminders using scheduled threads
 
 ---
 
