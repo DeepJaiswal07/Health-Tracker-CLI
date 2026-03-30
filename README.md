@@ -204,7 +204,3 @@ Course: Programming In Java
 Institution: VIT Bhopal University
 
 ---
-
-##  License
-
-This project is for academic purposes under the BYOP capstone submission.
