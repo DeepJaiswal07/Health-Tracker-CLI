@@ -3,7 +3,7 @@ package models;
 public class MealLog extends Log {
 
     private String type;
-    private String items;
+    private String items; 
     private int calories;
 
     public MealLog(String date, String type, String items, int calories) {
