@@ -57,12 +57,12 @@ Most health tracking solutions are either expensive apps, require internet conne
 
 ##  Java Concepts Used
 
-- **OOP** — Abstract `Log` base class; `WaterLog`, `ExerciseLog`, `SleepLog`, `MealLog` as subclasses
-- **Interfaces** — `Trackable` interface enforces `logEntry()`, `getSummary()`, and `toFileString()` across all log types
-- **Encapsulation** — All model fields are `private` with proper getters/setters
-- **Collections** — `ArrayList`, `HashMap`, `LinkedHashMap` for managing and grouping log data
-- **File I/O** — `BufferedReader` / `BufferedWriter` for reading and writing CSV-style text files
-- **Switch Expressions** — Java 14+ switch expressions used in the CLI menu
+(i) **OOP** — Abstract `Log` base class; `WaterLog`, `ExerciseLog`, `SleepLog`, `MealLog` as subclasses
+(ii) **Interfaces** — `Trackable` interface enforces `logEntry()`, `getSummary()`, and `toFileString()` across all log types
+(iii) **Encapsulation** — All model fields are `private` with proper getters/setters
+(iv) **Collections** — `ArrayList`, `HashMap`, `LinkedHashMap` for managing and grouping log data
+(v) **File I/O** — `BufferedReader` / `BufferedWriter` for reading and writing CSV-style text files
+(vi) **Switch Expressions** — Java 14+ switch expressions used in the CLI menu
 
 ---
 
