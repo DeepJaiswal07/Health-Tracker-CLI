@@ -149,7 +149,7 @@ java Main
   Target weight (kg): 68
   Daily water goal (L): 3.0
   Daily sleep goal (hrs): 8.0
-  ✅ Profile created!
+   Profile created!!!
 
   Main Menu
   ─────────
