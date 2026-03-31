@@ -99,13 +99,13 @@ HealthTracker/
 - Java JDK 11 or higher installed → Download from [https://www.oracle.com/java/technologies/downloads/](https://www.oracle.com/java/technologies/downloads/)
 - A terminal / Command Prompt
 
-### Step 1 — Clone the Repository
+### Step 1: Clone the Repository
 ```bash
 git clone https://github.com/DeepJaiswal07/Health-Tracker-CLI.git
 cd Health-Tracker-CLI
 ```
 
-### Step 2 — Compile
+### Step 2: Compile
 
 **On Windows (Command Prompt):**
 ```cmd
@@ -119,7 +119,7 @@ mkdir out
 find src -name "*.java" | xargs javac -d out
 ```
 
-### Step 3 — Run
+### Step 3: Run
 
 **On Windows:**
 ```cmd
