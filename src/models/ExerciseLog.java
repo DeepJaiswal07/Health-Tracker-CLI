@@ -1,7 +1,7 @@
 package models;
 
 public class ExerciseLog extends Log {
-
+     
     private String type; 
     private int minutes;
     private int calories;
