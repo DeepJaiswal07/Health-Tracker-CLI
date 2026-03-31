@@ -1,7 +1,7 @@
 # Personal Health Tracker CLI
 
 A console-based Java application to track your daily health habits — water intake, exercise, sleep, and meals — all saved locally without any internet or subscription required.
-
+ 
 ---
 
 ##  Problem Statement
